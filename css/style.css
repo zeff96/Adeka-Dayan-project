@@ -167,3 +167,15 @@ a{
 .contact-details:hover{
     transform: translateY(10px);
 }
+
+#footer{
+    background-color: #303841;
+    padding: 4rem 1.5rem;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+#footer p::first-letter{
+    text-transform: capitalize;
+}
