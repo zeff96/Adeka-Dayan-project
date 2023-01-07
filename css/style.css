@@ -1,8 +1,32 @@
-h1 {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
     font-size: 10px;
 }
-@media(max-width: 400px){
-    h1 {
-        font-size: 20px;
-    }
+
+#navbar{
+    background-color: rgb(193, 35, 35);
+    height: 6.5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3.5rem;
+    position: fixed;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-link{
+    color: white;
+    margin-right: 3.5rem;
+    text-decoration: none;
+    font-size: 2.5rem;
 }
